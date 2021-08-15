@@ -15,11 +15,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EvolentHealthExcerciseApi.Core\EvolentHealthExercise.Core.csproj" />
+    <Folder Include="Middlewares\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Middlewares\" />
+    <ProjectReference Include="..\EvolentHealthExcercise.Core\EvolentHealthExercise.Core.csproj" />
   </ItemGroup>
 
 

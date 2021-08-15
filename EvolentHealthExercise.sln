@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvolentHealthExercise.WebApi", "EvolentHealthExcercise\EvolentHealthExercise.WebApi.csproj", "{B5D60D9E-1156-44AD-B372-D8DA6AF0FEAD}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvolentHealthExercise.Core", "EvolentHealthExcerciseApi.Core\EvolentHealthExercise.Core.csproj", "{4049A96F-1B3A-4E3F-8998-683D883DBE86}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F2B7E982-9438-4109-A052-F16E07DDA167}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvolentHealthExercise.Tests", "EvolentHealthExcercise.Tests\EvolentHealthExercise.Tests.csproj", "{EAE7D074-C730-45DD-9F02-78D50CCFA04B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvolentHealthExercise.Tests", "EvolentHealthExcercise.Tests\EvolentHealthExercise.Tests.csproj", "{EAE7D074-C730-45DD-9F02-78D50CCFA04B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvolentHealthExercise.Core", "EvolentHealthExcercise.Core\EvolentHealthExercise.Core.csproj", "{E20164AB-193D-484F-A043-8FC3F8728078}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvolentHealthExercise.WebApi", "EvolentHealthExcercise.WebApi\EvolentHealthExercise.WebApi.csproj", "{8403EEE8-2ACB-41FB-9BDF-ECD9BCE0121A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,18 +17,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B5D60D9E-1156-44AD-B372-D8DA6AF0FEAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5D60D9E-1156-44AD-B372-D8DA6AF0FEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5D60D9E-1156-44AD-B372-D8DA6AF0FEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5D60D9E-1156-44AD-B372-D8DA6AF0FEAD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4049A96F-1B3A-4E3F-8998-683D883DBE86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4049A96F-1B3A-4E3F-8998-683D883DBE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4049A96F-1B3A-4E3F-8998-683D883DBE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4049A96F-1B3A-4E3F-8998-683D883DBE86}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EAE7D074-C730-45DD-9F02-78D50CCFA04B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EAE7D074-C730-45DD-9F02-78D50CCFA04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAE7D074-C730-45DD-9F02-78D50CCFA04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAE7D074-C730-45DD-9F02-78D50CCFA04B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E20164AB-193D-484F-A043-8FC3F8728078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E20164AB-193D-484F-A043-8FC3F8728078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E20164AB-193D-484F-A043-8FC3F8728078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E20164AB-193D-484F-A043-8FC3F8728078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8403EEE8-2ACB-41FB-9BDF-ECD9BCE0121A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8403EEE8-2ACB-41FB-9BDF-ECD9BCE0121A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8403EEE8-2ACB-41FB-9BDF-ECD9BCE0121A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8403EEE8-2ACB-41FB-9BDF-ECD9BCE0121A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

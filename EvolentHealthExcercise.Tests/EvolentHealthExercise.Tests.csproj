@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EvolentHealthExcerciseApi.Core\EvolentHealthExercise.Core.csproj" />
-    <ProjectReference Include="..\EvolentHealthExcercise\EvolentHealthExercise.WebApi.csproj" />
+    <ProjectReference Include="..\EvolentHealthExcercise.Core\EvolentHealthExercise.Core.csproj" />
+    <ProjectReference Include="..\EvolentHealthExcercise.WebApi\EvolentHealthExercise.WebApi.csproj" />
   </ItemGroup>
 
 </Project>
